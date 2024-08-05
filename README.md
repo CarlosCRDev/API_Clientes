@@ -27,5 +27,5 @@ Permite realizar nuevos registros a la BD
 ### (PUT) http://localhost:8080/clientes
 Permite actualizar los datos de un registro que ya se encuentra en la BD (permite validar que el registro exista).
 
-### (GET) http://localhost:8080/clientes/1
+### (DEL) http://localhost:8080/clientes/1
 Permite eliminar el registro de un cliente que coincida con el id enviado, antes de hacerlo, valida que se encuentre en la BD.
